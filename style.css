@@ -1,0 +1,139 @@
+body{
+    font-size: 14px;
+    background: black;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nuosu SIL', serif;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+*,
+:*before,
+:*after{
+    box-sizing: border-box;
+}
+
+
+
+.container {
+    width: 90%;
+    height: 100%;
+    max-width: 1170px;
+    margin: 0 auto ;
+}
+
+.header{
+    width: 100%;
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    
+}
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px  solid white;
+    padding: 35px 0;
+    align-items: center;
+}
+
+.nav{
+    display:flex ;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    
+}
+
+.nav__link{
+    margin-left:50px ;
+    color: white;
+    text-decoration: none;
+    opacity: 0.75;
+    transition: opacity .1s linear;
+    
+}
+.nav__link:first-child{
+    margin-left: 0;
+}
+
+.nav__link:hover{
+    opacity: 1;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 750px;
+    padding-top: 100px;
+
+    background: url('../img/intro6.jpg') no-repeat center / cover;
+    
+    
+    
+}
+
+.intro__inner{
+    width: 100%;
+    max-width: 970px;
+    
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.intro__title{
+    margin: 100px 0 30px;
+    
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 65px;
+    line-height: 1.1;
+    font-weight: 800px;
+    
+   
+}
+.intro__subtitle{
+    margin-bottom: 60px;
+    
+    font-size: 22px;
+    color: white;
+    line-height: 1.5;
+    font-weight: 400;
+    
+}
+
+.intro__subtitle2{
+    font-size: 22px;
+    color: white;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.btn{
+    display: inline-block;
+    vertical-align: top;
+    
+    border: 0;
+    border-radius: 2px;
+   
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.btn--red{
+    background-color: #ff2a15;
+    padding: 14px 40px;
+    transition: background .1s linear;
+    
+}
+.btn--red:hover{
+    background-color: #b00007;
+}
+
